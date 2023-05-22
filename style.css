@@ -1,157 +1,158 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #222;
-}
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+  }
 
-/* barra de rolagem */
+  /* barra de rolagem */
 
-::-webkit-scrollbar {
-  width: 10px;
-}
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
 
-::-webkit-scrollbar-track {
-  background-color: #222;
-}
+  ::-webkit-scrollbar-track {
+    background-color: #222;
+  }
 
-::-webkit-scrollbar-thumb {
-  background-color: #555;
-}
+  ::-webkit-scrollbar-thumb {
+    background-color: #555;
+  }
 
-::-webkit-scrollbar-thumb:hover {
-  background-color: #888;
-}
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+  }
 
-/* header */
+  /* header */
 
-header {
-  background-color: #111;
-  padding: 20px;
-  color: #fff;
-  text-align: center;
-}
+  header {
+    background-color: #111;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    max-width: 100vw;
+  }
 
-.site-name {
-  display: inline-block;
-  cursor: default;
-}
+  .site-name {
+    display: inline-block;
+    cursor: default;
+  }
 
-.site-name:hover {
-  text-shadow: 2px 2px 4px #fff;
-}
+  .site-name:hover {
+    text-shadow: 2px 2px 4px #fff;
+  }
 
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-nav ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
-}
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
 
-nav ul li a:hover {
-  background-color: #444;
-}
+  nav ul li a:hover {
+    background-color: #444;
+  }
 
-.social-icons {
-  display: inline-block;
-  margin-top: 10px;
-}
+  .social-icons {
+    display: inline-block;
+    margin-top: 10px;
+  }
 
-.social-icon {
-  color: #fff;
-  text-decoration: none;
-  font-size: 20px;
-  margin-right: 10px;
-}
+  .social-icon {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+  }
 
-.social-icon:hover {
-  color: #bbb;
-}
+  .social-icon:hover {
+    color: #bbb;
+  }
 
-/* main */
+  /* main */
 
-.band-content {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  background-color: #eee;
-  height: 90vh;
-  font-weight: bolder;
-  font-size: 1.2rem;
-}
+  .band-content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #eee;
+    height: 90vh;
+    font-weight: bolder;
+    font-size: 1.2rem;
+  }
 
-.parallax-div-biografia {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('Imagens/Harpazo - Logo (Prateado).png');
-}
+  .parallax-div-biografia {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('Imagens/Harpazo - Logo (Prateado).png');
+  }
 
-.band-image {
-  flex: 0 0 50%;
-  text-align: center;
-}
+  .band-image {
+    flex: 0 0 50%;
+    text-align: center;
+  }
 
-.band-image img {
-  max-width: 100%;
-  height: 60vh;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
+  .band-image img {
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
 
-.band-history {
-  flex: 0 0 50%;
-  padding: 0 20px;
-}
+  .band-history {
+    flex: 0 0 50%;
+    padding: 0 20px;
+  }
 
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
 
-.integrantes-content {
-  height: auto;
-}
+  .integrantes-content {
+    height: auto;
+  }
 
-.card-text {
-  text-align: justify;
-}
+  .card-text {
+    text-align: justify;
+  }
 
-.parallax-div-integrantes {
-  max-width: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('Imagens/Harpazo - Logo (vermelho).png');
-}
+  .parallax-div-integrantes {
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('Imagens/Harpazo - Logo (vermelho).png');
+  }
 
-.discografia-content {
-  display: block;
-  align-items: center;
-  padding: 20px;
-  background-color: #eee;
-  height: auto;
-}
+  .discografia-content {
+    display: block;
+    align-items: center;
+    padding: 20px;
+    background-color: #eee;
+    height: auto;
+  }
 
-.galeria-content {
-  display: block;
-  align-items: center;
-  padding: 20px;
-  background-color: #444;
-  height: 90vh;
-}
+  .galeria-content {
+    display: block;
+    align-items: center;
+    padding: 20px;
+    background-color: #444;
+    height: 90vh;
+  }
