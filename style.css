@@ -89,6 +89,16 @@ nav ul li a:hover {
   padding: 20px;
   background-color: #eee;
   height: 90vh;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.parallax-div-biografia {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('Imagens/Harpazo - Logo (Prateado).png');
 }
 
 .band-image {
@@ -121,6 +131,15 @@ nav ul li a:hover {
   text-align: justify;
 }
 
+.parallax-div-integrantes {
+  max-width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('Imagens/Harpazo - Logo (vermelho).png');
+}
+
 .discografia-content {
   display: block;
   align-items: center;
@@ -129,21 +148,7 @@ nav ul li a:hover {
   height: auto;
 }
 
-.background {
-  background-image: url('Imagens/Harpazo - Logo (Branco).png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  opacity: 0.4;
-}
-
-.galeria-content{
+.galeria-content {
   display: block;
   align-items: center;
   padding: 20px;
