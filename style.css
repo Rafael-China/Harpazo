@@ -94,6 +94,12 @@
     font-size: 1.2rem;
   }
 
+  @media (max-width: 767px) {
+    .band-content{
+      display: block;
+    }
+  }
+
   .parallax-div-biografia {
     background-attachment: fixed;
     background-position: center;
@@ -108,7 +114,7 @@
   }
 
   .band-image img {
-    max-width: 100%;
+    max-width: 90%;
     max-height: auto;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
