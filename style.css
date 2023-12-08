@@ -95,6 +95,9 @@
     .band-content {
       display: block;
     }
+    .textoBiografia{
+      font-size: 1rem;
+    }
   }
 
   .parallax-div-biografia {
