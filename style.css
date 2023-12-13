@@ -91,13 +91,15 @@
     font-size: 1.2rem;
   }
 
+  .textoBiografia{
+    font-size: 1rem;
+  }
+
   @media (max-width: 767px) {
     .band-content {
       display: block;
     }
-    .textoBiografia{
-      font-size: 1rem;
-    }
+    
   }
 
   .parallax-div-biografia {
